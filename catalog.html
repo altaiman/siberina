@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+<title>Siberina</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body class="page page_inner">
+	<svg style="display: none;">
+		<symbol id="arrow" viewBox="672 446 28 14">
+  			<path d="M3.8,34.743,13.5,28.887v2.958c10.267,0,15.853,5.309,18.292,11.042C26.1,37.155,17.859,37.642,13.5,37.642V40.6Z" transform="translate(668.205 417.113)"/>
+  		</symbol>
+	</svg>
+
+	<header class="header">
+	<div class="header__top">
+		<div class="container container_flex">
+			<div class="header__block">
+				<div class="city">
+					<p>Ваш город: <span class="city__choose">Барнаул</span></p>
+					<div class="drop">
+						<ul class="drop__list">
+							<li><a href="#">Новокузнецк</a></li>
+							<li><a href="#">Кемиерово</a></li>
+							<li><a href="#">Барнаул</a></li>
+							<li><a href="#">Бийск</a></li>
+							<li><a href="#">Томск</a></li>
+							<li><a href="#">Прокопьевск</a></li>
+							<li><a href="#">Рубцовск</a></li>
+						</ul>
+					</div>
+				</div>
+				<a class="header__address" href="#">Адреса магазинов</a>
+			</div>
+			<div class="header__block">
+				<a href="tel:88007073191" class="tel">8 800 707-31-91</a>
+				<span class="header__span">Звонок по России бесплатный</span>
+				<div class="time">
+					<p>14:00 - 18:00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__main container">
+		<div class="logo">
+			<a href="/">
+				<img src="img/logo.png" alt="Siberina">
+			</a>
+			<p class="logo__slogan">
+				Интернет-магазин верхней одежды
+			</p>
+		</div>
+		<div class="header__search field field_search">
+			<input type="search" placeholder="Поиск">
+			<button class="field__btn field__btn_search"></button>
+		</div>
+		<div class="header__contorls">
+			<a href="#" class="auth">Вход</a>
+			<a href="#" class="cart">0 руб.</a>
+		</div>
+	</div>
+	<div class="header__nav">
+		<nav class="nav container">
+			<div class="nav__item">
+				<a href="#">Женщинам</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Мужчинам</a>
+				<div class="drop">
+					<ul class="drop__block drop__list">
+						<li><a href="#">Ветровки мужские</a></li>
+						<li><a href="#">Костюмы для активного отдыха</a></li>
+						<li><a href="#">Куртки на тонком синтепоне</a></li>
+						<li><a href="#">Куртки зимние</a></li>
+						<li><a href="#">Перчатки мужские</a></li>
+						<li><a href="#">Пуховики мужские</a></li>
+						<li><a href="#">Шапки мужские</a></li>
+						<li><a href="#">Шарф мужской</a></li>
+					</ul>
+					<div class="drop__block drop__image">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+					</div>
+				</div>
+			</div>
+			<div class="nav__item">
+				<a href="#">Большие размеры</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Шубы</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Sale</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Акции</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Доставка и оплата</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Журнал</a>
+			</div>
+		</nav>
+	</div>
+</header>
+
+	<div class="page__wrapper">
+		<ul class="breadcrumbs container">
+			<li><a href="#">Главная страница</a></li>
+			<li><a href="#">Каталог</a></li>
+		</ul>
+
+		<section class="section">
+			<div class="section__page container">
+				<aside class="section__side">
+					<nav class="sidebar sidebar_catalog">
+						<a class="sidebar__link" href="#">Ветровки, плащи</a>
+						<a class="sidebar__link" href="#">Зимние куртки и пальто</a>
+						<a class="sidebar__link" href="#">Костюмы женские для активного отдыха</a>
+						<a class="sidebar__link" href="#">Куртки на тонком синтепоне</a>
+						<a class="sidebar__link" href="#">Палантины и шарфы</a>
+						<a class="sidebar__link" href="#">Перчатки, варежки женские</a>
+						<a class="sidebar__link" href="#">Пуховики женские</a>
+						<a class="sidebar__link" href="#">Шапки женские</a>
+					</nav>
+
+					<div class="filter">
+						<span class="filter__caption">Фильтр</span>
+
+						<div class="filter__block">
+							<span class="filter__block-name">Цена</span>
+							<div class="filter__block-content">
+								<div class="filter__price">
+									<label class="field field_catalog">
+										<span>От</span>
+										<input type="text">
+									</label>
+									<label class="field field_catalog">
+										<span>До</span>
+										<input type="text">
+									</label>
+									<div class="range"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="filter__block">
+							<span class="filter__block-name">Размер</span>
+							<div class="filter__block-content">
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">40</span>
+								</label>
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">42</span>
+								</label>
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">46</span>
+								</label>
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">48</span>
+								</label>
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">50</span>
+								</label>
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">52</span>
+								</label>
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">54</span>
+								</label>
+								<label class="checkbox checkbox_filter">
+									<input type="checkbox">
+									<span class="checkbox__box"></span>
+									<span class="checkbox__name">56</span>
+								</label>
+							</div>
+						</div>
+
+						<div class="filter__block">
+							<span class="filter__block-name">Цвет</span>
+							<div class="filter__block-content">
+								<div class="filter__colors">
+									<div class="color">
+										<span style="background-color: #F57D32;"></span>
+									</div>
+									<div class="color">
+										<span style="background-color: #15951E;"></span>
+									</div>
+									<div class="color">
+										<span style="background-color: #1757C6;"></span>
+									</div>
+									<div class="color">
+										<span style="background-color: #F82744;"></span>
+									</div>
+									<div class="color">
+										<span style="background-color: #000000;"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="filter__block">
+							<label class="checkbox checkbox_filter">
+								<input type="checkbox checkbox_filter">
+								<span class="checkbox__box"></span>
+								<span class="checkbox__name">Новинки</span>
+							</label>
+							<label class="checkbox checkbox_filter">
+								<input type="checkbox checkbox_filter">
+								<span class="checkbox__box"></span>
+								<span class="checkbox__name">Лидеры продаж</span>
+							</label>
+							<label class="checkbox checkbox_filter">
+								<input type="checkbox checkbox_filter">
+								<span class="checkbox__box"></span>
+								<span class="checkbox__name">Распродажа</span>
+							</label>
+						</div>
+
+						<div class="filter__bottom">
+							<button class="btn">Показать</button>
+							<a href="#">Сбросить</a>
+						</div>
+					</div>
+
+					<ul class="tizers">
+						<li class="tizers__item">
+							<div class="tizers__pic">
+								<img src="img/icons/svg/t1.svg" alt="">
+							</div>
+							<span>Бесплатная доставка</span>
+						</li>
+						<li class="tizers__item">
+							<div class="tizers__pic">
+								<img src="img/icons/svg/t2.svg" alt="">
+							</div>
+							<span>Удобная оплата</span>
+						</li>
+						<li class="tizers__item">
+							<div class="tizers__pic">
+								<img src="img/icons/svg/t3.svg" alt="">
+							</div>
+							<span>Возврат без проблем</span>
+						</li>
+						<li class="tizers__item">
+							<div class="tizers__pic">
+								<img src="img/icons/svg/t4.svg" alt="">
+							</div>
+							<span>Бесплатная примерка</span>
+						</li>
+					</ul>
+
+				</aside>
+				<div class="section__main">
+					
+				</div>
+			</div>
+		</section>
+
+
+	</div>
+
+	<footer class="footer">
+	<div class="container container_flex">
+		<div class="footer__block">
+			<div class="footer__menu">
+				<span>Интернет-магазин</span>
+				<ul>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Возврат</a></li>
+					<li><a href="#">Публичная оферта</a></li>
+					<li><a href="#">Как сделать заказ</a></li>
+					<li><a href="#">Таблица размеров</a></li>
+					<li><a href="#">Правила ухода</a></li>
+					<li><a href="#">Часто задаваемые вопросы</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__menu">
+				<span>О компании</span>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Отзывы о нас</a></li>
+					<li><a href="#">Новости и акции</a></li>
+					<li><a href="#">Работа в SIBERINA</a></li>
+					<li><a href="#">Партнёрам</a></li>
+					<li><a href="#">Политика конфидециальности</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__block">
+			<div class="footer__top">
+				<a href="tel:88007073191" class="footer__tel">8 800 707-31-91</a>
+				<a href="#" class="up">Наверх</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+	<script src="js/libs.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

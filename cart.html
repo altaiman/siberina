@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+<title>Siberina</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body class="page page_inner">
+	<svg style="display: none;">
+		<symbol id="arrow" viewBox="672 446 28 14">
+  			<path d="M3.8,34.743,13.5,28.887v2.958c10.267,0,15.853,5.309,18.292,11.042C26.1,37.155,17.859,37.642,13.5,37.642V40.6Z" transform="translate(668.205 417.113)"/>
+  		</symbol>
+	</svg>
+
+	<header class="header">
+	<div class="header__top">
+		<div class="container container_flex">
+			<div class="header__block">
+				<div class="city">
+					<p>Ваш город: <span class="city__choose">Барнаул</span></p>
+					<div class="drop">
+						<ul class="drop__list">
+							<li><a href="#">Новокузнецк</a></li>
+							<li><a href="#">Кемиерово</a></li>
+							<li><a href="#">Барнаул</a></li>
+							<li><a href="#">Бийск</a></li>
+							<li><a href="#">Томск</a></li>
+							<li><a href="#">Прокопьевск</a></li>
+							<li><a href="#">Рубцовск</a></li>
+						</ul>
+					</div>
+				</div>
+				<a class="header__address" href="#">Адреса магазинов</a>
+			</div>
+			<div class="header__block">
+				<a href="tel:88007073191" class="tel">8 800 707-31-91</a>
+				<span class="header__span">Звонок по России бесплатный</span>
+				<div class="time">
+					<p>14:00 - 18:00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__main container">
+		<div class="logo">
+			<a href="/">
+				<img src="img/logo.png" alt="Siberina">
+			</a>
+			<p class="logo__slogan">
+				Интернет-магазин верхней одежды
+			</p>
+		</div>
+		<div class="header__search field field_search">
+			<input type="search" placeholder="Поиск">
+			<button class="field__btn field__btn_search"></button>
+		</div>
+		<div class="header__contorls">
+			<a href="#" class="auth">Вход</a>
+			<a href="#" class="cart">0 руб.</a>
+		</div>
+	</div>
+	<div class="header__nav">
+		<nav class="nav container">
+			<div class="nav__item">
+				<a href="#">Женщинам</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Мужчинам</a>
+				<div class="drop">
+					<ul class="drop__block drop__list">
+						<li><a href="#">Ветровки мужские</a></li>
+						<li><a href="#">Костюмы для активного отдыха</a></li>
+						<li><a href="#">Куртки на тонком синтепоне</a></li>
+						<li><a href="#">Куртки зимние</a></li>
+						<li><a href="#">Перчатки мужские</a></li>
+						<li><a href="#">Пуховики мужские</a></li>
+						<li><a href="#">Шапки мужские</a></li>
+						<li><a href="#">Шарф мужской</a></li>
+					</ul>
+					<div class="drop__block drop__image">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+					</div>
+				</div>
+			</div>
+			<div class="nav__item">
+				<a href="#">Большие размеры</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Шубы</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Sale</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Акции</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Доставка и оплата</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Журнал</a>
+			</div>
+		</nav>
+	</div>
+</header>
+
+	<div class="page__wrapper">
+		<ul class="breadcrumbs container">
+			<li><a href="#">Главная страница</a></li>
+		</ul>
+
+		<section class="section">
+			<div class="container">
+				<h2 class="title title_simple">Моя корзина</h2>
+				<div class="basket">
+					<table class="table basket__table">
+	<thead>
+		<tr>
+			<th class="table__aleft"></th>
+			<th class="table__aleft">Название</th>
+			<th>Размер</th>
+			<th>Цвет</th>
+			<th>Колличество</th>
+			<th>Цена</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="basket__item">
+			<td class="table__aleft">
+				<div class="basket__img">
+					<img src="pictures/5bd1fc4ffddf9b0dfdfe65e623767e64.jpg" alt="">
+				</div>
+			</td>
+			<td class="table__aleft"><span>Пальто из меха</span></td>
+			<td><span>42</span></td>
+			<td>
+				<div class="basket__color color">
+					<span style="background-color: #000000;"></span>
+				</div>
+			</td>
+			<td>
+				<div class="counter">
+	<button class="counter__btn counter__btn_minus"></button>
+	<input type="number" class="counter__input" value="1" data-max="10">
+	<button class="counter__btn counter__btn_plus"></button>
+</div>
+			</td>
+			<td><span>32 900 руб.</span></td>
+			<td class="table__aright">
+				<button class="basket__remove">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="12606 450 14.509 14.508">
+					<g id="close" transform="translate(12606 449.999)">
+						<path id="Path_67" data-name="Path 67" class="cls-1" d="M8.538,7.255,14.243,1.55A.907.907,0,0,0,12.96.267L7.255,5.972,1.549.267A.907.907,0,0,0,.266,1.55L5.972,7.255.266,12.961a.907.907,0,1,0,1.283,1.283L7.255,8.538l5.705,5.705a.907.907,0,0,0,1.283-1.283Z" transform="translate(0)"/>
+					</g>
+					</svg>
+					<span>удалить</span>
+				</button>
+			</td>
+		</tr>
+		<tr class="basket__item">
+			<td class="table__aleft">
+				<div class="basket__img">
+					<img src="pictures/5bd1fc4ffddf9b0dfdfe65e623767e64.jpg" alt="">
+				</div>
+			</td>
+			<td class="table__aleft"><span>Пальто из меха</span></td>
+			<td><span>42</span></td>
+			<td>
+				<div class="basket__color color">
+					<span style="background-color: #000000;"></span>
+				</div>
+			</td>
+			<td>
+				<div class="counter">
+	<button class="counter__btn counter__btn_minus"></button>
+	<input type="number" class="counter__input" value="1" data-max="10">
+	<button class="counter__btn counter__btn_plus"></button>
+</div>
+			</td>
+			<td><span>32 900 руб.</span></td>
+			<td class="table__aright">
+				<button class="basket__remove">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="12606 450 14.509 14.508">
+					<g id="close" transform="translate(12606 449.999)">
+						<path id="Path_67" data-name="Path 67" class="cls-1" d="M8.538,7.255,14.243,1.55A.907.907,0,0,0,12.96.267L7.255,5.972,1.549.267A.907.907,0,0,0,.266,1.55L5.972,7.255.266,12.961a.907.907,0,1,0,1.283,1.283L7.255,8.538l5.705,5.705a.907.907,0,0,0,1.283-1.283Z" transform="translate(0)"/>
+					</g>
+					</svg>
+					<span>удалить</span>
+				</button>
+			</td>
+		</tr>
+		<tr class="basket__item">
+			<td class="table__aleft">
+				<div class="basket__img">
+					<img src="pictures/5bd1fc4ffddf9b0dfdfe65e623767e64.jpg" alt="">
+				</div>
+			</td>
+			<td class="table__aleft"><span>Пальто из меха</span></td>
+			<td><span>42</span></td>
+			<td>
+				<div class="basket__color color">
+					<span style="background-color: #000000;"></span>
+				</div>
+			</td>
+			<td>
+				<div class="counter">
+	<button class="counter__btn counter__btn_minus"></button>
+	<input type="number" class="counter__input" value="1" data-max="10">
+	<button class="counter__btn counter__btn_plus"></button>
+</div>
+			</td>
+			<td><span>32 900 руб.</span></td>
+			<td class="table__aright">
+				<button class="basket__remove">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="12606 450 14.509 14.508">
+					<g id="close" transform="translate(12606 449.999)">
+						<path id="Path_67" data-name="Path 67" class="cls-1" d="M8.538,7.255,14.243,1.55A.907.907,0,0,0,12.96.267L7.255,5.972,1.549.267A.907.907,0,0,0,.266,1.55L5.972,7.255.266,12.961a.907.907,0,1,0,1.283,1.283L7.255,8.538l5.705,5.705a.907.907,0,0,0,1.283-1.283Z" transform="translate(0)"/>
+					</g>
+					</svg>
+					<span>удалить</span>
+				</button>
+			</td>
+		</tr>
+	</tbody>
+</table>
+					<div class="basket__sum">
+						<p>Итого: <strong>100 500 руб.</strong></p>
+						<button class="btn">Оформить заказ</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</div>
+
+	<footer class="footer">
+	<div class="container container_flex">
+		<div class="footer__block">
+			<div class="footer__menu">
+				<span>Интернет-магазин</span>
+				<ul>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Возврат</a></li>
+					<li><a href="#">Публичная оферта</a></li>
+					<li><a href="#">Как сделать заказ</a></li>
+					<li><a href="#">Таблица размеров</a></li>
+					<li><a href="#">Правила ухода</a></li>
+					<li><a href="#">Часто задаваемые вопросы</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__menu">
+				<span>О компании</span>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Отзывы о нас</a></li>
+					<li><a href="#">Новости и акции</a></li>
+					<li><a href="#">Работа в SIBERINA</a></li>
+					<li><a href="#">Партнёрам</a></li>
+					<li><a href="#">Политика конфидециальности</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__block">
+			<div class="footer__top">
+				<a href="tel:88007073191" class="footer__tel">8 800 707-31-91</a>
+				<a href="#" class="up">Наверх</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+	<script src="js/libs.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

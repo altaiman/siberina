@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+<title>Siberina</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body class="page page_inner">
+	<svg style="display: none;">
+		<symbol id="arrow" viewBox="672 446 28 14">
+  			<path d="M3.8,34.743,13.5,28.887v2.958c10.267,0,15.853,5.309,18.292,11.042C26.1,37.155,17.859,37.642,13.5,37.642V40.6Z" transform="translate(668.205 417.113)"/>
+  		</symbol>
+	</svg>
+
+	<header class="header">
+	<div class="header__top">
+		<div class="container container_flex">
+			<div class="header__block">
+				<div class="city">
+					<p>Ваш город: <span class="city__choose">Барнаул</span></p>
+					<div class="drop">
+						<ul class="drop__list">
+							<li><a href="#">Новокузнецк</a></li>
+							<li><a href="#">Кемиерово</a></li>
+							<li><a href="#">Барнаул</a></li>
+							<li><a href="#">Бийск</a></li>
+							<li><a href="#">Томск</a></li>
+							<li><a href="#">Прокопьевск</a></li>
+							<li><a href="#">Рубцовск</a></li>
+						</ul>
+					</div>
+				</div>
+				<a class="header__address" href="#">Адреса магазинов</a>
+			</div>
+			<div class="header__block">
+				<a href="tel:88007073191" class="tel">8 800 707-31-91</a>
+				<span class="header__span">Звонок по России бесплатный</span>
+				<div class="time">
+					<p>14:00 - 18:00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__main container">
+		<div class="logo">
+			<a href="/">
+				<img src="img/logo.png" alt="Siberina">
+			</a>
+			<p class="logo__slogan">
+				Интернет-магазин верхней одежды
+			</p>
+		</div>
+		<div class="header__search field field_search">
+			<input type="search" placeholder="Поиск">
+			<button class="field__btn field__btn_search"></button>
+		</div>
+		<div class="header__contorls">
+			<a href="#" class="auth">Вход</a>
+			<a href="#" class="cart">0 руб.</a>
+		</div>
+	</div>
+	<div class="header__nav">
+		<nav class="nav container">
+			<div class="nav__item">
+				<a href="#">Женщинам</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Мужчинам</a>
+				<div class="drop">
+					<ul class="drop__block drop__list">
+						<li><a href="#">Ветровки мужские</a></li>
+						<li><a href="#">Костюмы для активного отдыха</a></li>
+						<li><a href="#">Куртки на тонком синтепоне</a></li>
+						<li><a href="#">Куртки зимние</a></li>
+						<li><a href="#">Перчатки мужские</a></li>
+						<li><a href="#">Пуховики мужские</a></li>
+						<li><a href="#">Шапки мужские</a></li>
+						<li><a href="#">Шарф мужской</a></li>
+					</ul>
+					<div class="drop__block drop__image">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+						<img src="pictures/drop.png" alt="Ветровки мужские">
+						<img src="pictures/drop2.png" alt="Ветровки мужские">
+					</div>
+				</div>
+			</div>
+			<div class="nav__item">
+				<a href="#">Большие размеры</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Шубы</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Sale</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Акции</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Доставка и оплата</a>
+			</div>
+			<div class="nav__item">
+				<a href="#">Журнал</a>
+			</div>
+		</nav>
+	</div>
+</header>
+
+	<div class="page__wrapper">
+		<ul class="breadcrumbs container">
+			<li><a href="#">Главная страница</a></li>
+		</ul>
+
+		<section class="section">
+			<div class="section__page container">
+				<aside class="section__side">
+					<nav class="sidebar">
+						<a class="sidebar__link" href="#">Регистрационные данные</a>
+						<a class="sidebar__link sidebar__link_active" href="#">Состояние заказов</a>
+						<a class="sidebar__link" href="#">Содержание корзины</a>
+						<a class="sidebar__link" href="#">История заказов</a>
+					</nav>
+				</aside>
+				<div class="section__main">
+					<h2 class="title title_lk title_simple">Мои заказы</h2>
+					
+					<table class="order">
+						<thead class="order__head order__head_bad">
+							<tr>
+								<th colspan="3">Заказ №98 от 10.05.2018, 1 товар на сумму 5311.80 р.</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td colspan="3">Оплата</td>
+							</tr>
+							<tr class="order__bill">
+								<td>
+									<p><strong>Счет №98/1 от 10.05.2018, Яндекс.Касса</strong></p>
+									<p>Сумма к оплате по счету: 5 311.80 р.</p>
+									<a href="#" class="order__link">сменить способ оплаты</a>
+								</td>
+								<td>
+									<span class="order__status order__status_bad">Не оплачено</span>
+								</td>
+								<td>
+									<button class="btn">Оплатить</button>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">Доставка</td>
+							</tr>
+							<tr class="order__bill">
+								<td>
+									<p><strong>Отгрузка №98/2, стоимость доставки 411.80 р.</strong></p>
+									<p>статус отгрузки: <span>Ожидает обработки</span></p>
+									<p>Служба доставки: Почта России: Наземный транспорт</p>
+								</td>
+								<td>
+									<span class="order__status order__status_bad">Не отгружено</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr class="order__bottom">
+								<td>
+									<a href="#" class="order__link">Подробнее о заказе</a>
+								</td>
+								<td>
+									<a href="#" class="order__link order__link_repeat">Повторить заказ</a>
+								</td>
+								<td>
+									<a href="#" class="order__link order__link_cancel">Отменить заказ</a>
+								</td>
+							</tr>
+						</tbody>
+
+					</table>
+
+					<table class="order">
+						<thead class="order__head order__head_good">
+							<tr>
+								<th colspan="3">Заказ №98 от 10.05.2018, 1 товар на сумму 5311.80 р.</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td colspan="3">Оплата</td>
+							</tr>
+							<tr class="order__bill">
+								<td>
+									<p><strong>Счет №98/1 от 10.05.2018, Яндекс.Касса</strong></p>
+									<p>Сумма к оплате по счету: 5 311.80 р.</p>
+									<a href="#" class="order__link">сменить способ оплаты</a>
+								</td>
+								<td>
+									<span class="order__status order__status_good">Оплачено</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="3">Доставка</td>
+							</tr>
+							<tr class="order__bill">
+								<td>
+									<p><strong>Отгрузка №98/2, стоимость доставки 411.80 р.</strong></p>
+									<p>статус отгрузки: <span>Ожидает обработки</span></p>
+									<p>Служба доставки: Почта России: Наземный транспорт</p>
+								</td>
+								<td>
+									<span class="order__status order__status_good">Отгружено</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr class="order__bottom">
+								<td>
+									<a href="#" class="order__link">Подробнее о заказе</a>
+								</td>
+								<td>
+									<a href="#" class="order__link order__link_repeat">Повторить заказ</a>
+								</td>
+								<td>
+									<a href="#" class="order__link order__link_cancel">Отменить заказ</a>
+								</td>
+							</tr>
+						</tbody>
+
+					</table>
+
+				</div>
+			</div>
+		</section>
+
+
+	</div>
+
+	<footer class="footer">
+	<div class="container container_flex">
+		<div class="footer__block">
+			<div class="footer__menu">
+				<span>Интернет-магазин</span>
+				<ul>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Возврат</a></li>
+					<li><a href="#">Публичная оферта</a></li>
+					<li><a href="#">Как сделать заказ</a></li>
+					<li><a href="#">Таблица размеров</a></li>
+					<li><a href="#">Правила ухода</a></li>
+					<li><a href="#">Часто задаваемые вопросы</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__menu">
+				<span>О компании</span>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Отзывы о нас</a></li>
+					<li><a href="#">Новости и акции</a></li>
+					<li><a href="#">Работа в SIBERINA</a></li>
+					<li><a href="#">Партнёрам</a></li>
+					<li><a href="#">Политика конфидециальности</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__block">
+			<div class="footer__top">
+				<a href="tel:88007073191" class="footer__tel">8 800 707-31-91</a>
+				<a href="#" class="up">Наверх</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+	<script src="js/libs.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
