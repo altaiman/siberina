@@ -112,11 +112,46 @@
 		</nav>
 	</div>
 	<div class="header__mobile mobile">
+		<div class="mobile__top">
+			<div class="city">
+				<p>Ваш город: <span class="city__choose">Барнаул</span></p>
+				<div class="drop">
+					<ul class="drop__list">
+						<li><a href="#">Новокузнецк</a></li>
+						<li><a href="#">Кемиерово</a></li>
+						<li><a href="#">Барнаул</a></li>
+						<li><a href="#">Бийск</a></li>
+						<li><a href="#">Томск</a></li>
+						<li><a href="#">Прокопьевск</a></li>
+						<li><a href="#">Рубцовск</a></li>
+					</ul>
+				</div>
+			</div>
+			<a class="header__address" href="#">Адреса магазинов</a>
+		</div>
 		<div class="logo">
 			<a href="/">
 				<img src="img/logo.png" alt="Siberina">
 			</a>
 		</div>
+
+		<div class="mobile__right">
+			<a href="tel:88007073191" class="mobile__phone">
+				<svg>
+					<use xlink:href="#phone"/>
+				</svg>
+			</a>
+
+			<a href="#" class="auth"></a>
+			<a href="#" class="cart"></a>	
+		</div>
+
+		<div class="header__search field field_search">
+			<input type="search" placeholder="Поиск">
+			<button class="field__btn field__btn_search"></button>
+		</div>
+
+
 
 		<button class="mobile__menu"></button>
 		<div class="mobile__menu-drop">
